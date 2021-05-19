@@ -1,0 +1,64 @@
+<html>
+<style>
+  body {
+    background-image: url(http://www.meissl.com/media/images/8f24db1f/schweiz.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+  }
+</style>
+
+<body>
+
+  <head>
+    <title> Form </title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <form class="" action="TRIP.html" method="post">
+    <center>
+      <h1> TOURIST INFORMATION</h1>
+      <h2> Enter all the details:</h2>
+      Tourist's name:<br>
+      <input type="text" name="tname">
+      <br>
+      Tourist's Mobile No:<br>
+      <input type="text" name="mname">
+      <br>
+      Email:<br>
+      <input type="text" name="email">
+      <br>
+      Gender:<br>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br><br>
+      Birthday:<br>
+      <input type="date" name="bday">
+      <br><br>
+      TOURIST'S INTEREST:<br><br>
+      <select>
+        <option value="MOTOR BIKING">MOTOR BIKING</option>
+        <option value="RIVER RAFTING">RIVER RAFTING</option>
+        <option value="GO ON A YAK SAFARI">GO ON A YAK SAFARI</option>
+        <option value="SKIING">SKIING</option>
+        <option value="MAGNETIC HILL">MAGNETIC HILL</option>
+        <option value="KAARGILL">KAARGILL</option>
+        <option value="SELECT ALL">SELECT ALL</option>
+      </select>
+      <br><br>
+      Additional Information: <br>
+      <textarea rows="3" cols="50"></textarea>
+      <br><br>
+      PAYMENT METHOD:<br>
+      <input type="radio" name="pay" value="DEBIT" checked>debit card <br>
+      <input type="radio" name="pay" value="CREDIT">credit card <br>
+      <input type="radio" name="pay" value="COD">cash on delivery <br><br>
+      <input type="reset" value="Reset"><input type="submit" value="Submit">
+  </form>
+  </center>
+</body>
+
+</html>
